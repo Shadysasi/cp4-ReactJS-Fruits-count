@@ -1,0 +1,77 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.bg-container {
+  min-height: 100vh;
+  background-color: #ffd569;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 90%;
+  max-width: 1110px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+.count {
+  color: #ffd569;
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #000000;
+}
+.fruit-image {
+  height: 400px;
+  width: 400px;
+}
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.fruits-box-container {
+  display: flex;
+  flex-direction: column;
+}
+.fruit-box {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  text-align: center;
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    margin-top: 48px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .fruits-box-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .title {
+    font-size: 48px;
+  }
+}
